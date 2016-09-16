@@ -1,0 +1,19 @@
+
+1. You can use the RETAIN statement, discussed in section 3.9, to make data from the previous observation available to the current observation. You can also use the OUTPUT statement, discussed in sections 6.11 and 6.12, to control when observations are written to the output data set.
+
+2. Batch mode processing is used while processing large files. They can be executed in queue or as per the time specified by user.
+
+3. If you create a SAS data set without specifying a library, SAS will put it in the Work library, and then delete it when you end your session.
+
+4. Inputting a raw data file into SAS using infile command :
+
+	a) INFILE ’c:\MyRawData\President.dat’;
+	b) Use LRECL command to change the record length option, i.e. the length of dataline. The default record length is 256.
+
+5. Informats and Formats:
+
+	Informats is used to read a data in a particular format.
+	Formats is used to write a data in a particular format. 
+ 	Both informats and formats can be customized using the proc format procedure. Some of the commonly used informats and formats are MMDDYYw., DATEw., 		COMMAw.d, $w., TIMEw. to name a few.
+
+6. \\INBANVAPFL10.ey.net\10BG5201 - Indian share folder access
